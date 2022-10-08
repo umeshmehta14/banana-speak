@@ -1,3 +1,5 @@
+Tap here for quick review of my project :- https://fascinating-toffee-d099ab.netlify.app/
+
 
 ABOUT SITE :- This is an simple world translator site. In this you can enter your text and it is translated into a ferb latin language through an api.
 
