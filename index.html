@@ -4,123 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banana Speak</title>
+    <title>Alien Talk</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- font-family: 'BIZ UDPMincho', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace; -->
-
-    <style>
-      body {
-        background-color: #1e293b;
-      }
-      .top {
-        background-color: #0f172a;
-        height: 8rem;
-        justify-content: center;
-        width: 100%;
-        color: #94a3b8;
-        border: 2px solid rgb(52, 2, 52);
-        text-align: center;
-        font-family: "BIZ UDPMincho", serif;
-        font-size: 100px;
-        border-bottom-left-radius: 40px ;
-        border-bottom-right-radius: 40px ;
-        box-shadow: 1px 0px 14px #d1d1d5;
-      }
-      textarea {
-        background-color: black;
-        color: white;
-        width: 50%;
-        height: 8rem;
-        font-size: larger;
-        margin: auto;
-        padding: 0.5rem;
-        margin-top: 55px;
-        display: block;
-        border: 2px solid rgb(19, 19, 19);
-      }
-
-      textarea:hover {
-        box-shadow: 1px 0px 14px blue;
-      }
-
-      #btn-translate {
-        margin: 1rem 23rem;
-        height: 2rem;
-        width: 6rem;
-        padding: 0rem;
-        border-radius: 22px;
-        background-color: #423c4b91;
-        color: white;
-      }
-
-      #btn-translate:hover{
-        box-shadow: 1px 0px 14px rgb(150, 150, 157);
-      }
-      #output {
-        border: 1px solid black;
-        height: 10vh;
-        width: 80%;
-        margin: 1rem;
-        padding: 1rem;
-      }
-
-      .o-head{
-        margin: 1rem 23rem;
-        font-family: 'Roboto', sans-serif;
-        font-size: xx-large;
-        color: white;
-        text-shadow: 1px 0px 14px rgb(132, 132, 226);
-      }
-
-      #output{
-        background-color: black;
-        color: white;
-        width: 50%;
-        height: 8rem;
-        font-size: larger;
-        margin: auto;
-        padding: 0.5rem;
-        margin-top: 10px;
-        margin-bottom: 40px;
-        display: block;
-        border: 2px solid rgb(19, 19, 19);
-
-      }
-
-      #output:hover {
-        box-shadow: 1px 0px 14px blue;
-        color: black;
-        background-color: antiquewhite;
-      }
-
-      .top1{
-        background-color: #0f172a;
-        height: 9rem;
-        justify-content: center;
-        width: 100%;
-        color: #94a3b8;
-        border: 2px solid rgb(52, 2, 52);
-        text-align: center;
-        font-family: "BIZ UDPMincho", serif;
-        /* font-size: 100px; */
-        box-shadow: 1px 0px 14px #d1d1d5;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="top">Alien Talk</div>
 
-    <textarea id="tta" placeholder="enter sentence in english"></textarea>
-    <button id="btn-translate">Translate</button>
+    <div class="container">
 
-    <div class="o-head"></div><h3 class="o-head">Output will come here</h3></div>
-    <div id="output">Ferb-latin</div>
+      <textarea id="tta" placeholder="enter sentence in english"></textarea>
+      <button id="btn-translate">Translate</button>
+      
+      <div class="o-head"></div><h3 class="o-head">Output will come here</h3></div>
+      <div id="output">Ferb-latin</div>
+    </div>
 
     <footer class="top1">
         <h1>ABOUT</h1>
